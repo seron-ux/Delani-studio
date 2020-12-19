@@ -42,3 +42,7 @@
     left: 50%;
     transform: translate(-50%, -50%);
 }
+.whatwedo{
+    justify-content: space-around;
+    display: flex;
+}
