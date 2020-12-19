@@ -46,3 +46,14 @@
     justify-content: space-around;
     display: flex;
 }
+.we-do{
+    text-align: center;
+    padding: 3%;
+}
+.we{
+    padding: 3%;
+    text-align: center;
+}
+#we{
+    margin-left: 0%;
+}
