@@ -79,3 +79,11 @@
 .imagehover:hover{
     opacity: 0.3;
 }
+.contactme{
+    background-color: url(../assets/backgrounds/c_image.jpg);
+    height: 80vh;
+    background-position:center ;
+    background-size: cover;
+    background-repeat: no-repeat;
+    color: white;
+}
