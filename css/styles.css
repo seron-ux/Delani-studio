@@ -76,3 +76,6 @@
     font-weight: bold;
     color: white;
 }
+.imagehover:hover{
+    opacity: 0.3;
+}
