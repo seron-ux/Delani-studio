@@ -8,10 +8,13 @@
 
 -This site deals with design,product management and development
 
+## live link
+ - https://seron-ux.github.io/Delani-studio/
+
 ## Setup/Installation Requirements
 
 - Open terminal (CTRL ALT T)
-- git clone 
+- git clone https://seron-ux.github.io/Delani-studio/
 - cd delani studio
 - use atom . or code . to open the clone repo on Atom or VS-code respectively
 
@@ -45,4 +48,4 @@ My webpage is not quite responsive, but i am working on making it work better.
 
 ## Licence
 
--
+- Licensed under the  [MIT license](LICENSE).
