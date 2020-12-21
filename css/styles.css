@@ -15,7 +15,7 @@
 
 .landingtext{
     top: 50%;
-    left: 30%;
+    left: 50%;
     position: absolute;
     transform: translate(-50%, -50%);
     text-align: center;
@@ -80,10 +80,35 @@
     opacity: 0.3;
 }
 .contactme{
-    background-color: url(../assets/backgrounds/c_image.jpg);
+    background-image: url(../assets/backgrounds/c_image.jpg);
     height: 80vh;
     background-position:center ;
     background-size: cover;
     background-repeat: no-repeat;
     color: white;
+}
+.mouse {
+	animation: pulse 5s infinite;
+	padding-top: 2vh;
+	animation-duration: 2s;
+	animation-name: mymouse;
+}
+
+@keyframes mymouse {
+
+	0%,
+	20%,
+	50%,
+	80%,
+	100% {
+		transform: translateY(0);
+	}
+
+	40% {
+		transform: translateY(-30px);
+	}
+
+	60% {
+		transform: translateY(-15px);
+	}
 }

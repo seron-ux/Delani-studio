@@ -15,3 +15,24 @@ $(document).ready(function () {
         $(".imagetoggle4").toggle();
     });
 });
+$(document).ready(function(){
+    $("form").submit(function(){
+    alert("Thanks  for being our client ,your message has been received");
+    });
+    });
+    
+    $(document).ready(function() {
+        $(".myportfolio").hover(
+          function() {
+            $(this)
+              .find(".overlay")
+              .show();
+          },
+          function() {
+            $(this)
+              .find(".overlay")
+              .hide();
+          }
+        );
+      });
+    
