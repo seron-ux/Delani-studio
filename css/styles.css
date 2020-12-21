@@ -57,3 +57,22 @@
 #we{
     margin-left: 0%;
 }
+.myport{
+    text-align: center !important;
+}
+.overlay{
+    display: none;
+    background-color: transparent;
+    transform: translate(-50% -50%);
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    -webkit-transform: translate(-50%, -50%);
+    -ms-transform: translate(-50%, -50%);
+    text-align: center;
+    padding: 30px;
+    border-style: solid;
+    border-width: medium;
+    font-weight: bold;
+    color: white;
+}
